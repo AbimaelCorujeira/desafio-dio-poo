@@ -1,3 +1,4 @@
+import dev.corujeira.abimael.dominio.Conteudo;
 import dev.corujeira.abimael.dominio.Curso;
 import dev.corujeira.abimael.dominio.Mentoria;
 
@@ -15,6 +16,7 @@ public class Main {
         curso2.setTitulo("Curso SQL");
         curso2.setDescricao("Descrição curso SQL");
         curso2.setCargahoraria(4);
+
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de Java");
